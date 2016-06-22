@@ -16,6 +16,7 @@ function submitPost(){
 		//dataType: "json",
 		success: function(response){ 
 			console.log("Tweeted!");
+			alert("Tweeted!");
 			}
 	});
 }
