@@ -1,6 +1,6 @@
 body{
-	margin-left: 5em;
-	margin-right: 5em;
+	margin-left: 2%;
+	margin-right: 2%;
 	background-color: #fcfcfc;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 1.6em;
@@ -47,8 +47,8 @@ body{
   text-overflow: ellipsis;
 }
 .page-header{
-	margin-left: 1em;
-	margin-right: 1em;
+	padding-left: 5%;
+	padding-right: 5%;
 	padding-top: -50px
 }
 #postTwitt {
@@ -157,4 +157,12 @@ a.twitter-timeline:focus {
   outline: none;
   border-color: #0089cb;
 }
-
+.nosidepadding{
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.breatheInputs {
+	margin: 1% 0% 1% 0%;
+}
